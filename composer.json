@@ -1,0 +1,26 @@
+{
+    "name": "TDD PHP",
+    "description": "Estudo de testes com PHPUnit",
+    
+    "authors": [
+        {
+            "name": "Reginaldo das Dores Moreira",
+            "email": "reginaldoddm@gmail.com"
+        }
+    ],
+    
+    "require": {
+        "php": ">=5.4"
+    },
+    
+    "require-dev": {
+        "phpunit/phpunit": "4.5.0"
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "CDC\\Loja\\RH\\": "CDC/Loja/RH/"
+        }
+    }
+ 
+}
